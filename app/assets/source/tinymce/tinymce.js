@@ -38386,7 +38386,7 @@ define(
     };
 
     var contentCssError = function (editor, urls) {
-      displayError(editor, 'Failed to load content css: ' + urls[0]);
+     // displayError(editor, 'Failed to load content css: ' + urls[0]);
     };
 
     var initError = function (message) {
@@ -44510,7 +44510,7 @@ define(
         },
         function (urls) {
           initEditor(editor);
-          ErrorReporter.contentCssError(editor, urls);
+          //ErrorReporter.contentCssError(editor, urls);
         }
       );
     };
